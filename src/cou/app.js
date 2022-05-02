@@ -7,7 +7,8 @@ const background = <img className="background" alt="ocean" src="/images/ocean.jp
 
 const images = [];
 for(let animal in animals){
-  images.push(<img key:{animal}
+  images.push(<img
+  key={animal}
   className ='animal'
   alt = {animal}
   src = {animals[animal].image}
