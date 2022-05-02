@@ -12,14 +12,17 @@ for(let animal in animals){
   alt = {animal}
   src = {animals[animal].image}
   aria-label = {animal}
-  role:'button' />
+  role ='button' />
   )
 }
 
 const animalFacts = (
   <div>
   <h1>{title === '' ? 'Click an animal for fun facts!' : title}</h1>
-   {background}
+    {background}
+    <div>
+      {images}
+    </div>
   </div>
 );
 
