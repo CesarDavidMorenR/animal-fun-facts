@@ -5,6 +5,10 @@ const title = '';
 
 const background = <img className="background" alt="ocean" src="/images/ocean.jpg" />
 
+const displayFact = (e) => {
+  e.target.alt;
+};
+
 const images = [];
 for(let animal in animals){
   images.push(<img
