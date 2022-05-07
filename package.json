@@ -1,6 +1,7 @@
 {
   "name": "animal-fun-facts",
   "version": "0.1.0",
+  "home": "https://davidmorenodev.github.io/animal-fun-facts/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
