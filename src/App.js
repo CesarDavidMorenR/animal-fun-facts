@@ -1,4 +1,5 @@
 import { animals } from "./cou/animals.js";
+import OIP from "./cou/assets/OIP.jpg"
 import './cou/styles.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   const title = "";
 
    const background = (
-     <img className="background" alt="ocean" src="./cou/assets/OLP.jpg" />
+     <img className="background" alt="ocean" src = {OIP} />
    );
 
   const displayFact = (e) => {
@@ -33,15 +34,18 @@ function App() {
     );
   }
 
-  const showBackground = true;
+  /* const showBackground = true; */
 
 
 
   return (
-
     <div>
-      {showBackground === true ? background : images}
-      <h1>{title === "" ? "Click an animal for fun facts!" : title}</h1>
+      {background}
+      <h1>
+        {title === ""
+          ? "Click an animal for fun facts! Click several times to randomize the different fun facts"
+          : title}
+      </h1>
       <div className="animals">
         <p id="fact"></p>
         {images}

@@ -1,6 +1,10 @@
+import dolphin from './assets/dolphin.jpg';
+import lobster from "./assets/lobster.jpg";
+import starfish from "./assets/starfish.jpg";
+
 export const animals = {
   dolphin: {
-    image: "./assets/dolphin.jpg",
+    image: dolphin,
     facts: [
       "Dolphins have been shown to give distinct names to each other!",
       "Dolphins are known to display their own culture!",
@@ -8,7 +12,7 @@ export const animals = {
     ],
   },
   lobster: {
-    image: "./assets/lobster.jpg",
+    image: lobster,
     facts: [
       "Lobsters taste with their legs!",
       "Lobsters chew with their stomachs!",
@@ -16,7 +20,7 @@ export const animals = {
     ],
   },
   starfish: {
-    image: "./assets/starfish.jpg",
+    image: starfish,
     facts: [
       "Starfish can have up to 40 arms!",
       "Starfish have no brain and no blood!",
