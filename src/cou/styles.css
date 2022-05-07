@@ -6,7 +6,7 @@ div {
 
 .background {
     position: absolute;
-    margin-top: 80px;
+    margin-top: 100px;
     width: 95%;
     z-index: 1
 }
@@ -15,7 +15,7 @@ div {
     display: flex;
     justify-content: center;
     position: fixed;
-    margin-top: 100px;
+    margin-top: -570px;
     width: 80%;
     font-size: 5vw;
     z-index: 2;
@@ -26,12 +26,13 @@ div {
     flex-direction: row;
     position: fixed;
     width: 90%;
-    margin-top: 240px;
+    margin-top: 340px;
     z-index: 2
 }
 
 .animal {
     width: 33.3%;
+    height: 477px;
 }
 
 @media only screen and (max-width: 670px) {
